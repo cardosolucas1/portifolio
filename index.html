@@ -2,9 +2,16 @@
 <html>
     <head>
       <title> Portifolio - Lucas Cardoso</title>
+      <meta charset="utf-8">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
       <style>
           body{
             margin: 0;
+
+          }
+          h1{
+              text-align: center;
+              font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
           }
           #menu ul{
@@ -16,7 +23,7 @@
             display: inline;
           }
           #menu ul li a{
-            padding: 10px 100px;
+            padding: 10px 110px;
             display: inline-block;
             color: white;
             font-weight: bold;
@@ -27,9 +34,136 @@
           #menu ul li a:hover{
             color: #34eb7d;
           }
+          #sociais ul{
+            margin: 0;
+            background-color: rgb(71, 71, 71);
+            list-style: none;
+          }
+          #sociais ul li{
+            display: initial;
+          }
+          #sociais ul li a{
+            padding: 10px 150px;
+            display: inline-block;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            font-family: monospace, sans-serif;
+
+          }
+          #sociais ul li a:hover{
+            color: #34eb7d;
+          }
+          
+          .pictures{
+            border-radius: 10%;
+	        border:2px solid white;
+          }
+          #pic3{
+              position: absolute;
+              left: 970px;
+              top: 100px;
+          }
+          #pic2{
+              position: absolute;
+              left: 560px;
+              top: 100px;
+          }
+          #pic1{
+              position: absolute;
+              left: 150px;
+              top: 100px;
+          }
+          #title3{
+            position: absolute;
+            left: 1010px;
+            top: 390px; 
+          }
+          #title2{
+            position: absolute;
+            left: 620px;
+            top: 390px; 
+          }
+          #title1{
+            position: absolute;
+            left: 260px;
+            top: 390px; 
+          }
+          h2{
+            color: black;
+            font-weight: bold;
+            font-style: italic;
+            text-decoration: none;
+            font-family: 'Open Sans', sans-serif;
+          }
+          #picL{
+              border-radius: 50%;
+              position:absolute;
+              top: 620px;
+          }
+          .vitrine { 
+                margin-top: initial;
+                height: 220px; 
+                width: 100%; 
+                background-color: #222; 
+  
+            } 
+            #about_me{
+                position: absolute;
+                top: 620px;
+                left: 205px;
+                color: white;
+                font-style: bold;
+                font-size: 25px;
+            }
+            .redes{
+                border-radius: 50%;
+            }
+            #insta{
+                position: absolute;
+                top: 870px;
+                left: 180px;
+                font-style: bold; 
+                font-family: 'Open Sans', sans-serif;
+            }
+            #face{
+                position: absolute;
+                top: 870px;
+                left: 567px;
+                font-style: bold;
+                font-family: 'Open Sans', sans-serif;
+            }
+            #yout{
+                position: absolute;
+                top: 870px;
+                left: 950px;
+                font-style: bold;
+                font-family: 'Open Sans', sans-serif;
+            }
+            #lst1{
+                font-style: bold;
+                font-family: 'Open Sans', sans-serif;
+                float:left;
+
+            }
+            #lst2{
+                font-style: bold;
+                font-family: 'Open Sans', sans-serif;
+                float:left;
+                position: relative;
+                left: 300px;
+            }
+            #lst3{
+                font-style: bold;
+                font-family: 'Open Sans', sans-serif;
+                position: relative;
+                left: 600px;
+            }
+ 
       </style>
     </head>
         <body>
+            <img id="pic0" src="/home/cardoso/Portifolio/image/background.png" alt="Foto de codigos" width="1367x">
             <div id ="menu">
                 <ul>
                     <li><a href="me"> Quem sou eu?</a></li>
@@ -39,5 +173,58 @@
 
                 </ul>
             </div>
+            <img class="pictures" id="pic1" src="/home/cardoso/Portifolio/image/skills.png" alt="Foto de um computador" width="300x">
+            <img class="pictures" id="pic2" src="/home/cardoso/Portifolio/image/skills1.png" alt="Foto de celular" width="300px">
+            <img class="pictures" id="pic3" src="/home/cardoso/Portifolio/image/skills2.png" alt="Foto de um livro" width="300px">
+
+            <h2 id="title1"> GitHub </h2>
+            <h2 id="title2"> Redes sociais</h2>
+            <h2 id="title3"> Livro da semana</h2>
+
+            <div class="vitrine"></div>
+            <img id="picL" src="/home/cardoso/Portifolio/image/Lucas.jpeg" alt="Foto do Lucas" width="200px">
+            <p id=about_me>
+                Olá! Bem-vindo ao meu Portifolio! Meu nome é Lucas Cardoso, natural de Manaus/AM, tenho 20 anos. Atualmente moro na <strong> Fazenda Rio Grande/PR</strong> - Cidade metropolitana de Curitiba.
+                Sempre estou pronto para novos desafios, uma vez que me adapto muito rápido às situações. Além de ser apaixonado por <em>programação</em>,
+                sou nato de <strong> exatas!</strong> Para mim, matemática é como programar: lógico, divertido e prazeroso.
+                Gosto de fazer trilhas, e sou muito fã de música clássica. Isso é um pouco sobre mim, portanto, para mais informações entre em contato.
+            </p>
+            <img class="redes" id="insta" src="/home/cardoso/Portifolio/image/insta.png" alt="Foto do ícone do Instagram" width="100px">
+            <img class="redes" id="face" src="/home/cardoso/Portifolio/image/face.png" alt="Foto do ícone do Facebook" width="100px">  
+            <img class="redes" id="yout" src="/home/cardoso/Portifolio/image/yout.png" alt="Foto do ícone do YouTube" width="100px">
+            <div id="sociais">
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
+            </div>
+            <br> <br> <br> <br> <br> <br>
+            <hr width="100%" size=20px>
+            <h1 > Habilidades</h1>
+            <hr width="100%" size=20px>
+
+            <ul id="lst1">
+                <li> Word</li>
+                <li> Excel</li>
+                <li> Power Point</li>
+                <li> Informática a nível de usuário</li>
+                <li> Inglês técnico</li>    
+            </ul>
+            <ul id="lst2">
+                <li> Programação em C</li>
+                <li> Programação em Python - Básico</li>
+                <li> Git</li>
+                <li> Github</li>
+                <li> Bash/Shell</li>
+            </ul>
+            <ul id="lst3">
+                <li> Proatividade</li>
+                <li> Responsabilidade</li>
+                <li> Trabalho em equipe</li>
+                <li> Estrutura de dados</li>
+                <li> Edição e vídeos e imagens</li>
+            </ul>
+            <hr width="100%" size=50px>
         </body>
 </html>
